@@ -8,7 +8,10 @@ public class Scoring {
         Jack.math=85;
         Students Hank=new Students("Hank",60,30);
         Students s=new Students();
+        Graduate Jane=new Graduate();
+        Jane.names="Jane";
         Jack.print();
         Hank.print();
+        Jane.print();
     }
 }
