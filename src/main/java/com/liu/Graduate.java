@@ -7,4 +7,7 @@ public class Graduate extends Students {
         super(names, english, math);
         this.thesis=thesis;
     }
+    public void print(){
+        System.out.println(names+"\t"+english+"\t"+math+"\t"+getAverage()+"\t"+thesis);
+    }
 }
