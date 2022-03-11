@@ -10,6 +10,5 @@ public class Scoring {
         Students s=new Students();
         Jack.print();
         Hank.print();
-        s.print();
     }
 }

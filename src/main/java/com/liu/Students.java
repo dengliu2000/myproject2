@@ -17,6 +17,10 @@ public class Students {
         this("John Doe",-1,-1);
     }
     public void print(){
-        System.out.println(names+"\t"+english+"\t"+math+"\t");
+        int average=(math+english)/2;
+        System.out.print(names+"\t"+english+"\t"+math+"\t"+average);
+        if (average<60)
+            System.out.print("*");
+        System.out.println();
     }
 }
