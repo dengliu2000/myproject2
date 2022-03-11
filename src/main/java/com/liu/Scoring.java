@@ -7,9 +7,7 @@ public class Scoring {
         Jack.english=70;
         Jack.math=85;
         Students Hank=new Students("Hank",60,30);
-        Students s=new Students();
-        Graduate Jane=new Graduate();
-        Jane.names="Jane";
+        Graduate Jane=new Graduate("Jane",81,80,79);
         Jack.print();
         Hank.print();
         Jane.print();
