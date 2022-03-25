@@ -1,4 +1,4 @@
-package com.liu;
+package com.liu.scoring;
 
 public class Scoring {
     public static void main(String[] args) {

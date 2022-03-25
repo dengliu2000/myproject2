@@ -1,4 +1,4 @@
-package com.liu;
+package com.liu.customer;
 
 public class CustomerLevel {
     public static void main(String[] args) {

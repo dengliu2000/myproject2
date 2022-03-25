@@ -1,4 +1,4 @@
-package com.liu;
+package com.liu.customer;
 
 public class GoldenCustomer extends SilverCustomer {
     public GoldenCustomer(String name,int price){
