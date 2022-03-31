@@ -20,6 +20,21 @@ public class Tester {
                 start=Station.KAOHSIUNG_STATION;
                 break;
         }
-
+        System.out.println("Your destination station?(1:Taipei, 2:Taichung 3:Kaohsiung)");
+        choice=Integer.parseInt(scanner.next());
+        Station end=null;
+        switch (choice){
+            case 1:
+                end=Station.TAIPEI_STATION;
+                break;
+            case 2:
+                end=Station.TAICHUNG_STATION;
+                break;
+            case 3:
+                end=Station.KAOHSIUNG_STATION;
+                break;
+        }
+        System.out.println(start);
+        System.out.println(end);
     }
 }

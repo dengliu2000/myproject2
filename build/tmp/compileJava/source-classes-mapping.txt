@@ -1,18 +1,24 @@
-com/liu/Scoring.java
- com.liu.Scoring
-com/liu/ScoringNG.java
- com.liu.ScoringNG
-com/liu/SilverCustomer.java
- com.liu.SilverCustomer
+com/liu/customer/Customer.java
+ com.liu.customer.Customer
+com/liu/scoring/Graduate.java
+ com.liu.scoring.Graduate
+com/liu/customer/GoldenCustomer.java
+ com.liu.customer.GoldenCustomer
+com/liu/scoring/ScoringNG.java
+ com.liu.scoring.ScoringNG
 com/liu/helloworld.java
  com.liu.helloworld
-com/liu/Customer.java
- com.liu.Customer
-com/liu/Students.java
- com.liu.Students
-com/liu/Graduate.java
- com.liu.Graduate
-com/liu/GoldenCustomer.java
- com.liu.GoldenCustomer
-com/liu/CustomerLevel.java
- com.liu.CustomerLevel
+com/liu/scoring/Students.java
+ com.liu.scoring.Students
+com/liu/ticket/Station.java
+ com.liu.ticket.Station
+com/liu/ticket/Ticket.java
+ com.liu.ticket.Ticket
+com/liu/customer/SilverCustomer.java
+ com.liu.customer.SilverCustomer
+com/liu/scoring/Scoring.java
+ com.liu.scoring.Scoring
+com/liu/customer/CustomerLevel.java
+ com.liu.customer.CustomerLevel
+com/liu/ticket/Tester.java
+ com.liu.ticket.Tester
