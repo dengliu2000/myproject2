@@ -14,6 +14,7 @@ public class Scoring {
         students.add(new Students("Jack",70,85));
         students.add(new Students("Hank", 60, 30));
         students.add(new Graduate("Jane", 81, 80, 79));
+        students.add(new Students());
         for (Students s : students) {
             s.print();
             System.out.println();
