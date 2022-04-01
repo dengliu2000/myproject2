@@ -21,31 +21,32 @@ public class Tester {
         }
         System.out.println("Your destination station?(1:Taipei, 2:Taichung, 3:Kaohsiung)");
         choice=Integer.parseInt(scanner.next());
-        Station end=null;
+        Station destination=null;
         switch (choice){
             case 1:
-                end=Station.TAIPEI_STATION;
+                destination=Station.TAIPEI_STATION;
                 break;
             case 2:
-                end=Station.TAICHUNG_STATION;
+                destination=Station.TAICHUNG_STATION;
                 break;
             case 3:
-                end=Station.KAOHSIUNG_STATION;
+                destination=Station.KAOHSIUNG_STATION;
                 break;
         }
-        System.out.println("What kind of ticket?(1:normal, 2:student, 3:older)");
+        System.out.println("What kind of ticket?(1:normal, 2:student, 3:elder)");
         choice=Integer.parseInt(scanner.next());
         Ticket ticket=null;
         switch (choice){
             case 1:
-                Ticket.print();
+                ticket = new Ticket(start,destination);
                 break;
             case 2:
-                StudentTicket.print();
+                ticket=new StudentTicket(start,destination);
                 break;
             case 3:
-                OlderTicket.print();
+                ticket=new ElderTicket(start,destination);
                 break;
         }
+        ticket.print();
     }
 }

@@ -33,7 +33,7 @@ public class Ticket {
                     }
                 }
             }
-            public static void print(){
-                System.out.println();
+            public void print(){
+                System.out.println(start.name+"\t"+destination.name+"\t"+price);
             }
         }
