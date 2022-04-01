@@ -4,9 +4,8 @@ import java.util.Scanner;
 
 public class Tester {
     public static void main(String[] args) {
-        Ticket ticket=new Ticket(Station.TAIPEI_STATION,Station.KAOHSIUNG_STATION);
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Your start station?(1:Taipei, 2:Taichung 3:Kaohsiung)");
+        System.out.println("Your start station?(1:Taipei, 2:Taichung, 3:Kaohsiung)");
         int choice=Integer.parseInt(scanner.next());
         Station start=null;
         switch (choice){
@@ -20,7 +19,7 @@ public class Tester {
                 start=Station.KAOHSIUNG_STATION;
                 break;
         }
-        System.out.println("Your destination station?(1:Taipei, 2:Taichung 3:Kaohsiung)");
+        System.out.println("Your destination station?(1:Taipei, 2:Taichung, 3:Kaohsiung)");
         choice=Integer.parseInt(scanner.next());
         Station end=null;
         switch (choice){
@@ -34,7 +33,19 @@ public class Tester {
                 end=Station.KAOHSIUNG_STATION;
                 break;
         }
-        System.out.println(start);
-        System.out.println(end);
+        System.out.println("What kind of ticket?(1:normal, 2:student, 3:older)");
+        choice=Integer.parseInt(scanner.next());
+        Ticket ticket=null;
+        switch (choice){
+            case 1:
+                Ticket.print();
+                break;
+            case 2:
+                StudentTicket.print();
+                break;
+            case 3:
+                OlderTicket.print();
+                break;
+        }
     }
 }
