@@ -4,8 +4,8 @@ public class SilverCustomer extends Customer {
     public SilverCustomer(String name,int price){
         super(name,price);
     }
-    public int backmoney(){
-        return (price/1000)*off;
+    public float backmoney(){
+        return (price/1000)*off*1000;
     }
     public void print() {
         if(price>=1000) {

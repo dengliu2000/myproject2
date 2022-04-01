@@ -3,17 +3,14 @@ package com.liu.customer;
 public class Customer {
     String name;
     int price;
-    int discount;
-    int off=100;
-    public Customer(String name){
-        this.name=name;
-    }
+    float discount;
+    float off=0.1f;
     public Customer(String name,int price){
-        this(name);
+        this.name=name;
         this.price=price;
     }
-    public int discount(){
-        return discount=price-(price/1000)*off;
+    public float discount(){
+        return discount=price-(price/1000)*off*1000;
     }
     public void print(){
         if(price>=1000)

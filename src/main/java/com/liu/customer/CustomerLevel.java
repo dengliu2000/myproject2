@@ -2,18 +2,19 @@ package com.liu.customer;
 
 public class CustomerLevel {
     public static void main(String[] args) {
-        Customer John=new Customer("John");
-        John.price=1500;
-        Customer Josh=new Customer("Josh");
-        Josh.price=500;
-        SilverCustomer Hank=new SilverCustomer("Hank",1500);
-        GoldenCustomer Frank=new GoldenCustomer("Frank",5000);
-        John.print();
+        Customer c1=new Customer("001",1500);
+        Customer c2=new Customer("002",500);
+        SilverCustomer c3=new SilverCustomer("003",1500);
+        GoldenCustomer c4=new GoldenCustomer("004",5000);
+        PlatinumCustomer c5=new PlatinumCustomer("005",6000);
+        c1.print();
         System.out.println();
-        Hank.print();
+        c2.print();
         System.out.println();
-        Josh.print();
+        c3.print();
         System.out.println();
-        Frank.print();
+        c4.print();
+        System.out.println();
+        c5.print();
     }
 }
