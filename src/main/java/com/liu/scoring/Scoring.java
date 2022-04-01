@@ -1,15 +1,22 @@
 package com.liu.scoring;
 
+import com.liu.customer.Customer;
+import com.liu.customer.GoldenCustomer;
+import com.liu.customer.PlatinumCustomer;
+import com.liu.customer.SilverCustomer;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Scoring {
     public static void main(String[] args) {
-        Students Jack=new Students("Jack");
-        //Jack.names="Jack";
-        Jack.english=70;
-        Jack.math=85;
-        Students Hank=new Students("Hank",60,30);
-        Graduate Jane=new Graduate("Jane",81,80,79);
-        Jack.print();
-        Hank.print();
-        Jane.print();
+        List<Students> students = new ArrayList<>();
+        students.add(new Students("Jack",70,85));
+        students.add(new Students("Hank", 60, 30));
+        students.add(new Graduate("Jane", 81, 80, 79));
+        for (Students s : students) {
+            s.print();
+            System.out.println();
+        }
     }
 }

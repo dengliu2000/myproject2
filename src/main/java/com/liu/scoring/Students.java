@@ -4,12 +4,8 @@ public class Students {
     String names;
     int english;
     int math;
-    public Students(String names){
-        this.names=names;
-    }
     public Students(String names,int english,int math){
-        this(names);
-        //this.names=names;
+        this.names=names;
         this.english=english;
         this.math=math;
     }
