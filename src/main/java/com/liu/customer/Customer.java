@@ -9,12 +9,12 @@ public class Customer {
         this.name=name;
         this.price=price;
     }
-    public float discount(){
-        return discount=price-(price/1000)*off*1000;
+    public float backmoney(){
+        return (price/1000)*off*1000;
     }
     public void print(){
         if(price>=1000)
-        System.out.print(name+"\t"+price+"\t"+discount());
+        System.out.print(name+"\t"+price+"\t"+(price-backmoney()));
         else
             System.out.print(name+"\t"+price+" \t"+price);
     }

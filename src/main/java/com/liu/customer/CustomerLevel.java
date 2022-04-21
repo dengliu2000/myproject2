@@ -10,7 +10,7 @@ public class CustomerLevel {
         customers.add(new Customer("002",500));
         customers.add(new SilverCustomer("003",1500));
         customers.add(new GoldenCustomer("004",5000));
-        customers.add(new PlatinumCustomer("005",6000));
+        customers.add(new PlatinumCustomer("005",10000));
         for(Customer c: customers){
             c.print();
             System.out.println();
