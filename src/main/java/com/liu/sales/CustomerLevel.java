@@ -1,4 +1,4 @@
-package com.liu.customer;
+package com.liu.sales;
 
 import java.util.ArrayList;
 import java.util.List;

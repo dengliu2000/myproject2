@@ -1,10 +1,5 @@
 package com.liu.scoring;
 
-import com.liu.customer.Customer;
-import com.liu.customer.GoldenCustomer;
-import com.liu.customer.PlatinumCustomer;
-import com.liu.customer.SilverCustomer;
-
 import java.util.ArrayList;
 import java.util.List;
 
