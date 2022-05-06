@@ -1,6 +1,6 @@
 package com.liu.scoring;
 
-public class Graduate extends Students {
+public class Graduate extends Students implements Printable{
     int thesis;
     public Graduate(String names,int english,
                     int math,int thesis){
