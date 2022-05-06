@@ -1,7 +1,7 @@
 package com.liu.scoring;
 
 public class Students implements Printable{
-    String names;
+    public String names;
     int english;
     int math;
     public Students(String names,int english,int math){
