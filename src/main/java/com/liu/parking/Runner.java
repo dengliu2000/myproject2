@@ -8,7 +8,7 @@ public class Runner {
     public static void main(String[] args) {
         String id="ABC-1234";
         String enterTime="08:00";
-        String exitTime="11:59";
+        String exitTime="13:15";
         SimpleDateFormat sdf=new SimpleDateFormat("HH:mm");
         Date d=null;
         try{
