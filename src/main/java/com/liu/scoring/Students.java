@@ -12,7 +12,7 @@ public class Students implements Printable{
 
     @Override
     public void print() {
-        System.out.print(names+"\t"+english+"\t"+math+"\t"+getAverage());
+        System.out.print(names+" \t"+english+"\t"+math+"\t"+getAverage());
         if (getAverage()<60)
             System.out.print("*");
         System.out.println();
