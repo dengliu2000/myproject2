@@ -7,6 +7,7 @@ public class Graduate extends Students implements Printable{
         super(names, english, math);
         this.thesis=thesis;
     }
+    @Override
     public void print(){
         System.out.println(names+"\t"+english+"\t"+math+"\t"+getAverage()+"\t"+thesis);
     }

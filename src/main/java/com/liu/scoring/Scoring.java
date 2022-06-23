@@ -10,6 +10,10 @@ public class Scoring {
         students.add(new Students("Hank", 60, 30));
         students.add(new Graduate("Jane", 81, 80, 79));
         students.add(new Students());
+        /*for (int i = 0; i < students.size(); i++) {
+            Students stu=students.get(i);
+            stu.print();
+        }*/
         for (Students s : students) {
             s.print();
             System.out.println();
